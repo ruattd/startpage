@@ -13,7 +13,7 @@ const CONFIG = {
 	// General
 	name: '任天天',
 	imageBackground: true,
-	openInNewTab: true,
+	openInNewTab: false,
 	twelveHourFormat: false,
 
 	// Greetings
