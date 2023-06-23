@@ -17,7 +17,7 @@ const CONFIG = {
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: '早上好!',
+	greetingMorning: '上午好!',
 	greetingAfternoon: '喝下午茶了吗,',
 	greetingEvening: '快去吃饭吧,',
 	greetingNight: '滚去睡觉!',
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: '3268ab245269280c8f3c3ba0e130b4ca', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: '13d32807b8ecb3850d559b6052ae5c9b', // Write here your API Key
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+	language: 'zh_cn', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '36.955',
+	defaultLongitude: '120.678',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -53,15 +53,15 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
+			name: 'GitHub',
 			icon: 'github',
 			link: 'https://github.com/',
 		},
 		{
-			id: '2',
+			id: '4',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.qq.com/',
 		},
 		{
 			id: '3',
@@ -70,22 +70,22 @@ const CONFIG = {
 			link: 'https://todoist.com',
 		},
 		{
-			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			id: '2',
+			name: 'Google',
+			icon: 'search',
+			link: 'https://www.google.com/',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Bilibili',
+			icon: 'tv',
+			link: 'https://www.bilibili.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Music',
+			icon: 'disc-3',
+			link: 'https://y.znull.top/library',
 		},
 	],
 
@@ -93,7 +93,7 @@ const CONFIG = {
 		{
 			id: '1',
 			name: 'Music',
-			icon: 'headphones',
+			icon: 'disc-3',
 			link: 'https://open.spotify.com',
 		},
 		{
@@ -135,24 +135,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'disc-3',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'L / Inheart',
+					link: 'https://y.znull.top/playlist/7368351360',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'L / Yours',
+					link: 'https://y.znull.top/playlist/7628672881',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'N / Light',
+					link: 'https://y.znull.top/playlist/5265160327',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Liked Songs',
+					link: 'https://y.znull.top/library/liked-songs',
 				},
 			],
 		},
